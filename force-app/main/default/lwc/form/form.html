@@ -1,0 +1,41 @@
+<template>
+  <div class="slds-m-around_medium testing">
+    <lightning-input
+      name="firstName"
+      label="First Name"
+      onchange={handleChange}
+    ></lightning-input>
+    <lightning-input
+      name="lastName"
+      label="Last Name"
+      onchange={handleChange}
+    ></lightning-input>
+    <p class="slds-m-top_medium">
+      11 Uppercased Full Name: {uppercasedFullName}
+    </p>
+  </div>
+
+  <!-- Test error -->
+  <div style="padding: 1em">
+    <template if:true={isError}>
+      <div class="slds-m-vertical_medium">These are the detaisssls!</div>
+    </template>
+
+    <template for:each={contacts} for:item="contact">
+      <li key={contact.Id}>{contact.Name}, {contact.Title}</li>
+    </template>
+
+    <lightning-button
+      label="Submit"
+      title="submit"
+      onclick={handleSubmit}
+    ></lightning-button>
+    <lightning-button
+      variant="brand"
+      label="Cancel"
+      title="cancel"
+      onclick={handleCancel}
+      class="slds-m-left_medium"
+    ></lightning-button>
+  </div>
+</template>

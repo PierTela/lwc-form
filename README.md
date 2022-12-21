@@ -12,3 +12,9 @@ The `sfdx-project.json` file contains useful configuration information for your 
 - [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
 - [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
 - [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+
+## Some useful links
+
+- [How to deploy](https://trailhead.salesforce.com/content/learn/modules/lightning-web-components-basics/push-lightning-web-component-files)
+- [How to see the changes almost immediately](https://salesforce.stackexchange.com/questions/373334/changes-are-not-visible-after-deployment-of-lwc)
+- [Lwc docs](https://developer.salesforce.com/docs/component-library/documentation/en/lwc/lwc.get_started_introduction)
